@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+<title id="title">AshaKids Platform</title><desc id="desc">Ilustración conceptual original del proyecto. Tecnología para apoyar terapias de lenguaje</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0B1224"/><stop offset=".55" stop-color="#151333"/><stop offset="1" stop-color="#081D2C"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#A78BFA"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#7C3AED" stop-opacity=".34"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#94A3B8" stroke-opacity=".045"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.float{animation:float 7s ease-in-out infinite}.pulse{animation:pulse 4s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:.85}}
+@media(prefers-reduced-motion:reduce){.float,.pulse{animation:none}}
+</style><linearGradient id="projectAccent"><stop stop-color="#34D399"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+<radialGradient id="projectHalo"><stop stop-color="#34D399" stop-opacity=".2"/><stop offset="1" stop-color="#34D399" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="1198" height="288" rx="22" fill="url(#bg)" stroke="#34D399" stroke-opacity=".3"/>
+<rect x="2" y="2" width="1196" height="286" rx="22" fill="url(#grid)"/>
+<ellipse cx="990" cy="145" rx="235" ry="200" fill="url(#projectHalo)"/>
+<rect x="45" y="40" width="5" height="26" rx="2" fill="#34D399"/>
+<text x="65" y="58" font-size="15" letter-spacing="3" fill="#34D399" class="mono">SALUD / TERAPIAS INFANTILES</text>
+<text x="44" y="139" font-size="54" font-weight="700" letter-spacing="-1.5" fill="#F8FAFC">AshaKids Platform</text>
+<text x="47" y="182" font-size="23" fill="#CBD5E1">Tecnología para apoyar terapias de lenguaje</text>
+<path d="M47 222H600" stroke="url(#projectAccent)" stroke-opacity=".25"/>
+<text x="47" y="254" font-size="14" fill="#64748B" class="mono">PROYECTO DESTACADO / sromansilva</text>
+<g class="float">
+<circle cx="972" cy="145" r="92" fill="#34D399" fill-opacity=".05" stroke="#34D399" stroke-opacity=".18"/>
+<path d="M849 95Q849 73 871 73H1012Q1034 73 1034 95V151Q1034 173 1012 173H903L873 197V173Q849 173 849 151Z" fill="#101F2D" stroke="#34D399" stroke-opacity=".55" stroke-width="2"/>
+<rect x="962" y="141" width="126" height="71" rx="20" fill="#171B39" stroke="#A78BFA" stroke-opacity=".6"/>
+<circle cx="898" cy="123" r="7" fill="#34D399"/><circle cx="938" cy="123" r="7" fill="#6EE7B7"/><circle cx="978" cy="123" r="7" fill="#A78BFA"/>
+<path d="M1003 177L1014 188L1040 162" fill="none" stroke="#C4B5FD" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1100" cy="75" r="5" fill="#A78BFA" class="pulse"/>
+<circle cx="830" cy="196" r="4" fill="#34D399" class="pulse"/>
+</g>
+</svg>

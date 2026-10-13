@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Sergio Román Silva · Software, diseño y propósito</title><desc id="desc">Portada original con órbitas y partículas animadas. Estudiante de Ingeniería de Sistemas en UTP.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0B1224"/><stop offset=".55" stop-color="#151333"/><stop offset="1" stop-color="#081D2C"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#A78BFA"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#7C3AED" stop-opacity=".34"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#94A3B8" stroke-opacity=".045"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.float{animation:float 7s ease-in-out infinite}.pulse{animation:pulse 4s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:.85}}
+@media(prefers-reduced-motion:reduce){.float,.pulse{animation:none}}
+</style></defs>
+<rect x="1" y="1" width="1198" height="418" rx="26" fill="url(#bg)" stroke="#A78BFA" stroke-opacity=".2"/>
+<rect x="2" y="2" width="1196" height="416" rx="26" fill="url(#grid)"/>
+<ellipse cx="930" cy="205" rx="300" ry="240" fill="url(#halo)"/>
+<path d="M65 42H182M65 42V66M1137 354V378H1012" stroke="url(#accent)" stroke-width="2" opacity=".75" fill="none"/>
+<circle cx="72" cy="83" r="4" fill="#22D3EE" class="pulse"/>
+<text x="89" y="89" font-size="16" fill="#94A3B8" class="mono" letter-spacing="2">sromansilva / portfolio</text>
+<text x="64" y="179" font-size="82" font-weight="750" fill="#F8FAFC" letter-spacing="-3">Sergio</text>
+<text x="64" y="264" font-size="72" font-weight="750" fill="url(#accent)" letter-spacing="-3">Román Silva</text>
+<text x="67" y="314" font-size="25" fill="#CBD5E1">Software · Diseño · Propósito</text>
+<rect x="66" y="344" width="286" height="35" rx="17" fill="#A78BFA" fill-opacity=".09" stroke="#A78BFA" stroke-opacity=".24"/>
+<text x="87" y="367" font-size="15" fill="#DDD6FE" class="mono">Ingeniería de Sistemas / UTP</text>
+<g class="float">
+<circle cx="943" cy="214" r="125" fill="none" stroke="#8B5CF6" stroke-opacity=".2"/>
+<circle cx="943" cy="214" r="151" fill="none" stroke="#22D3EE" stroke-opacity=".12" stroke-dasharray="4 10"/>
+<ellipse cx="943" cy="214" rx="166" ry="61" fill="none" stroke="url(#accent)" stroke-opacity=".5" transform="rotate(-32 943 214)"/>
+<rect x="857" y="128" width="172" height="172" rx="38" fill="#11182C" stroke="url(#accent)" stroke-width="1.5" transform="rotate(-8 943 214)"/>
+<text x="943" y="235" text-anchor="middle" font-size="66" font-weight="700" fill="#EDE9FE" class="mono">SR<tspan fill="#22D3EE">.</tspan></text>
+<text x="943" y="270" text-anchor="middle" font-size="13" letter-spacing="4" fill="#94A3B8">BUILD / CREATE</text>
+<circle r="6" fill="#22D3EE"><animateMotion dur="14s" repeatCount="indefinite" path="M1094 214a151 151 0 1 0-302 0a151 151 0 1 0 302 0"/></circle>
+<circle r="4" fill="#C4B5FD"><animateMotion dur="20s" repeatCount="indefinite" path="M818 214a125 125 0 1 1 250 0a125 125 0 1 1-250 0"/></circle>
+</g>
+<circle cx="770" cy="49" r="2" fill="#A78BFA"><animate attributeName="opacity" values=".15;.85;.15" dur="5s" begin="-0s" repeatCount="indefinite"/></circle><circle cx="1120" cy="68" r="2" fill="#67E8F9"><animate attributeName="opacity" values=".15;.85;.15" dur="4s" begin="-1s" repeatCount="indefinite"/></circle><circle cx="715" cy="290" r="1.8" fill="#C4B5FD"><animate attributeName="opacity" values=".15;.85;.15" dur="6s" begin="-2s" repeatCount="indefinite"/></circle><circle cx="1170" cy="331" r="1.6" fill="#A78BFA"><animate attributeName="opacity" values=".15;.85;.15" dur="7s" begin="-3s" repeatCount="indefinite"/></circle><circle cx="900" cy="372" r="2" fill="#67E8F9"><animate attributeName="opacity" values=".15;.85;.15" dur="5s" begin="-4s" repeatCount="indefinite"/></circle><circle cx="1065" cy="355" r="1.4" fill="#FFFFFF"><animate attributeName="opacity" values=".15;.85;.15" dur="4s" begin="-5s" repeatCount="indefinite"/></circle><circle cx="688" cy="110" r="1.5" fill="#FFFFFF"><animate attributeName="opacity" values=".15;.85;.15" dur="7s" begin="-6s" repeatCount="indefinite"/></circle>
+<path d="M0 405C220 350 370 432 600 393S994 347 1200 386" fill="none" stroke="url(#accent)" stroke-opacity=".35"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="138" viewBox="0 0 1200 138" role="img" aria-labelledby="title desc">
+<title id="title">Gracias por visitar mi perfil</title><desc id="desc">Frase de cierre: soluciones que combinen eficiencia, creatividad y valor humano.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0B1224"/><stop offset=".55" stop-color="#151333"/><stop offset="1" stop-color="#081D2C"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#A78BFA"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#7C3AED" stop-opacity=".34"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#94A3B8" stroke-opacity=".045"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.float{animation:float 7s ease-in-out infinite}.pulse{animation:pulse 4s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:.85}}
+@media(prefers-reduced-motion:reduce){.float,.pulse{animation:none}}
+</style></defs>
+<rect x="1" y="1" width="1198" height="136" rx="20" fill="url(#bg)" stroke="#A78BFA" stroke-opacity=".2"/>
+<text x="600" y="57" text-anchor="middle" fill="#E2E8F0" font-size="24" font-weight="600">Eficiencia. Creatividad. Valor humano.</text>
+<text x="600" y="90" text-anchor="middle" fill="#94A3B8" font-size="16">Gracias por conocer lo que estoy construyendo.</text>
+<path d="M110 117H1090" stroke="url(#accent)" stroke-opacity=".16"/>
+<circle r="3" fill="#22D3EE"><animateMotion path="M110 117H1090" dur="10s" repeatCount="indefinite"/></circle>
+</svg>

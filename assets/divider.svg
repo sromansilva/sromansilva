@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="30" viewBox="0 0 1200 30" role="img" aria-labelledby="title desc">
+<title id="title">Separador animado</title><desc id="desc">Línea de luz en morado y cian con una partícula que recorre el perfil.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0B1224"/><stop offset=".55" stop-color="#151333"/><stop offset="1" stop-color="#081D2C"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#A78BFA"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#7C3AED" stop-opacity=".34"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#94A3B8" stroke-opacity=".045"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.float{animation:float 7s ease-in-out infinite}.pulse{animation:pulse 4s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:.85}}
+@media(prefers-reduced-motion:reduce){.float,.pulse{animation:none}}
+</style></defs>
+<path d="M5 15H1195" stroke="url(#accent)" stroke-opacity=".18"/>
+<circle r="3" fill="#8B5CF6"><animateMotion path="M5 15H1195" dur="9s" repeatCount="indefinite"/></circle>
+<circle cx="600" cy="15" r="3.5" fill="#22D3EE" class="pulse"/>
+</svg>

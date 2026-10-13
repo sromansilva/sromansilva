@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+<title id="title">Chapa Tu Cambio</title><desc id="desc">Ilustración conceptual original del proyecto. Casa de cambio · Paneles para cada rol</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0B1224"/><stop offset=".55" stop-color="#151333"/><stop offset="1" stop-color="#081D2C"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#A78BFA"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#7C3AED" stop-opacity=".34"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#94A3B8" stroke-opacity=".045"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.float{animation:float 7s ease-in-out infinite}.pulse{animation:pulse 4s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:.85}}
+@media(prefers-reduced-motion:reduce){.float,.pulse{animation:none}}
+</style><linearGradient id="projectAccent"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+<radialGradient id="projectHalo"><stop stop-color="#22D3EE" stop-opacity=".2"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="1198" height="288" rx="22" fill="url(#bg)" stroke="#22D3EE" stroke-opacity=".3"/>
+<rect x="2" y="2" width="1196" height="286" rx="22" fill="url(#grid)"/>
+<ellipse cx="990" cy="145" rx="235" ry="200" fill="url(#projectHalo)"/>
+<rect x="45" y="40" width="5" height="26" rx="2" fill="#22D3EE"/>
+<text x="65" y="58" font-size="15" letter-spacing="3" fill="#22D3EE" class="mono">FINANZAS / PROYECTO EN EQUIPO</text>
+<text x="44" y="139" font-size="54" font-weight="700" letter-spacing="-1.5" fill="#F8FAFC">Chapa Tu Cambio</text>
+<text x="47" y="182" font-size="23" fill="#CBD5E1">Casa de cambio · Paneles para cada rol</text>
+<path d="M47 222H600" stroke="url(#projectAccent)" stroke-opacity=".25"/>
+<text x="47" y="254" font-size="14" fill="#64748B" class="mono">PROYECTO DESTACADO / sromansilva</text>
+<g class="float">
+<rect x="822" y="60" width="278" height="165" rx="21" fill="#111D2D" stroke="#22D3EE" stroke-opacity=".35" transform="rotate(-5 950 142)"/>
+<rect x="847" y="91" width="92" height="58" rx="14" fill="#22D3EE" fill-opacity=".09" stroke="#22D3EE" stroke-opacity=".35"/>
+<text x="893" y="129" font-size="31" font-weight="700" text-anchor="middle" fill="#67E8F9">S/</text>
+<rect x="995" y="91" width="76" height="58" rx="14" fill="#FBBF24" fill-opacity=".09" stroke="#FBBF24" stroke-opacity=".4"/>
+<text x="1033" y="129" font-size="32" font-weight="700" text-anchor="middle" fill="#FCD34D">$</text>
+<path d="M951 103H977L970 96M977 137H951L958 144" fill="none" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+<path d="M847 188L886 176L925 183L964 165L1003 171L1044 156L1076 162" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+<circle r="4" fill="#FBBF24"><animateMotion path="M847 188L886 176L925 183L964 165L1003 171L1044 156L1076 162" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="1096" cy="64" r="7" fill="#FBBF24" class="pulse"/>
+</g>
+</svg>
